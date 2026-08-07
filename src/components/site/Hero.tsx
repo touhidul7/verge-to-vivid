@@ -13,12 +13,12 @@ export default function Hero() {
     <>
       <section
         id="top"
-        className="relative grid min-h-[calc(100vh-92px)] items-center gap-[50px] overflow-hidden px-6 pt-16 pb-20 md:grid-cols-[minmax(0,1.05fr)_minmax(0,0.85fr)] md:gap-[6vw] md:px-[8vw] md:pt-[8vh] md:pb-[7vh]"
+        className="relative grid min-h-[min(880px,calc(100vh-92px))] items-center gap-[50px] overflow-hidden px-6 pt-16 pb-20 md:grid-cols-[minmax(0,1.05fr)_minmax(0,0.85fr)] md:gap-[6vw] md:px-[8vw] md:pt-[8vh] md:pb-[7vh]"
       >
         {/* decorative arc */}
         <div
           aria-hidden
-          className="pointer-events-none absolute -top-24 -right-40 hidden h-[900px] w-[900px] rounded-full bg-linear-to-b from-mist to-[#dbe8f8] md:block"
+          className="pointer-events-none absolute -top-40 -right-52 hidden h-[640px] w-[640px] rounded-full bg-linear-to-b from-mist to-[#dbe8f8] md:block"
         />
 
         <div className="relative z-2 max-w-[750px] self-center">
@@ -26,7 +26,7 @@ export default function Hero() {
             For leaders and organizations ready for what is next
           </p>
 
-          <h1 className="mt-7 font-display text-[clamp(2.6rem,7.2vw,5rem)] leading-[1.06] tracking-[-0.01em] text-ink">
+          <h1 className="mt-7 font-display text-[clamp(2.3rem,5vw,5rem)] leading-[1.06] tracking-[-0.01em] text-ink">
             Guiding Change.
             <br />
             Driving Growth.
