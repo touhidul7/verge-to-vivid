@@ -10,11 +10,23 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as ContactRouteImport } from './routes/contact'
+import { Route as InsightsRouteImport } from './routes/insights'
 import { Route as TnagCollaborationRouteImport } from './routes/tnag-collaboration'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ContactRoute = ContactRouteImport.update({
+  id: '/contact',
+  path: '/contact',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const InsightsRoute = InsightsRouteImport.update({
+  id: '/insights',
+  path: '/insights',
   getParentRoute: () => rootRouteImport,
 } as any)
 const TnagCollaborationRoute = TnagCollaborationRouteImport.update({
@@ -25,27 +37,35 @@ const TnagCollaborationRoute = TnagCollaborationRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/contact': typeof ContactRoute
+  '/insights': typeof InsightsRoute
   '/tnag-collaboration': typeof TnagCollaborationRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/contact': typeof ContactRoute
+  '/insights': typeof InsightsRoute
   '/tnag-collaboration': typeof TnagCollaborationRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/contact': typeof ContactRoute
+  '/insights': typeof InsightsRoute
   '/tnag-collaboration': typeof TnagCollaborationRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/tnag-collaboration'
+  fullPaths: '/' | '/contact' | '/insights' | '/tnag-collaboration'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/tnag-collaboration'
-  id: '__root__' | '/' | '/tnag-collaboration'
+  to: '/' | '/contact' | '/insights' | '/tnag-collaboration'
+  id: '__root__' | '/' | '/contact' | '/insights' | '/tnag-collaboration'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  ContactRoute: typeof ContactRoute
+  InsightsRoute: typeof InsightsRoute
   TnagCollaborationRoute: typeof TnagCollaborationRoute
 }
 
@@ -56,6 +76,20 @@ declare module '@tanstack/react-router' {
       path: '/'
       fullPath: '/'
       preLoaderRoute: typeof IndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/contact': {
+      id: '/contact'
+      path: '/contact'
+      fullPath: '/contact'
+      preLoaderRoute: typeof ContactRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/insights': {
+      id: '/insights'
+      path: '/insights'
+      fullPath: '/insights'
+      preLoaderRoute: typeof InsightsRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/tnag-collaboration': {
@@ -70,6 +104,8 @@ declare module '@tanstack/react-router' {
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  ContactRoute: ContactRoute,
+  InsightsRoute: InsightsRoute,
   TnagCollaborationRoute: TnagCollaborationRoute,
 }
 export const routeTree = rootRouteImport

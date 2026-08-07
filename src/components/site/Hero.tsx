@@ -1,4 +1,3 @@
-import chair from "../../../public/claudia-chair.jpg";
 import { CALENDLY } from "./Header";
 
 const STATS = [
@@ -66,11 +65,11 @@ export default function Hero() {
             aria-hidden
             className="absolute top-8 -right-2 bottom-[-28px] left-8 hidden bg-[#dfe8f4] md:block"
           />
-          <div className="relative">
+          <div className="relative overflow-hidden border border-ink/10 bg-white shadow-[0_30px_70px_-40px_rgba(23,63,120,0.55)]">
             <img
-              src={chair}
+              src="/claudia-chair.jpg"
               alt="Claudia Harvey, founder and CEO of On The Verge Transformation Consulting"
-              className="relative w-full object-cover shadow-[0_30px_70px_-40px_rgba(23,63,120,0.55)]"
+              className="relative w-full object-cover"
               loading="eager"
             />
             <div className="relative -mt-14 ml-0 w-fit max-w-[85%] bg-white px-7 py-5 md:-ml-8">

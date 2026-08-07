@@ -2,7 +2,6 @@ import { createFileRoute } from "@tanstack/react-router";
 
 import Header from "@/components/site/Header";
 import { CALENDLY } from "@/components/site/Header";
-import logo from "/public/logo.png";
 const LINKEDIN = "https://www.linkedin.com/in/claudiaharvey/";
 
 const NATIVE_AI = "https://thenativeaigroup.com";
@@ -271,7 +270,7 @@ function TnagCollaboration() {
         <footer className="grid items-center gap-6 bg-night px-6 py-11 text-[10px] tracking-[0.05em] text-white/65 md:grid-cols-2 md:px-[6vw]">
           <div className="flex items-center gap-4">
             <img
-              src={logo}
+              src="/logo.png"
               alt="On The Verge Transformational Consulting"
               className="h-16 w-auto bg-white p-2"
               loading="lazy"

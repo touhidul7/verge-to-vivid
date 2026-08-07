@@ -1,10 +1,9 @@
-import logo from "/public/logo.png";
-
 const NAV = [
   { label: "About", href: "/#about" },
   { label: "Services", href: "/#services" },
   { label: "AI Solutions", href: "/tnag-collaboration" },
-  { label: "Insights", href: "/#insights" },
+  { label: "Insights", href: "/insights" },
+  { label: "Contact", href: "/contact" },
   { label: "Speaking", href: "/#speaking" },
 ];
 
@@ -18,7 +17,7 @@ export default function Header() {
       <div className="grid grid-cols-[minmax(0,1fr)_auto] items-center gap-4 px-6 py-3 md:grid-cols-[auto_1fr_auto] md:px-[6vw]">
         <a href="/" className="flex min-w-0 items-center">
           <img
-            src={logo}
+            src="/logo.png"
             alt="On The Verge Transformational Consulting"
             className="h-12 w-auto shrink-0 md:h-14"
           />

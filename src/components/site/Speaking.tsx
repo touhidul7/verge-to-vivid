@@ -1,5 +1,4 @@
 /* eslint-disable prettier/prettier */
-import speaking from "../../../public/claudia-speaking.jpg";
 import { SPEAK_MAIL } from "./Header";
 
 const THEMES = [
@@ -54,7 +53,7 @@ export default function Speaking() {
             className="relative block"
           >
             <img
-              src={speaking}
+              src="/claudia-speaking.jpg"
               alt="Claudia Harvey speaking on stage at the Business Wealth Summit"
               className="w-full object-cover"
               loading="lazy"
