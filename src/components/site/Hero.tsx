@@ -68,7 +68,7 @@ export default function Hero() {
           />
           <div className="relative">
             <img
-              src={chair.url}
+              src={chair}
               alt="Claudia Harvey, founder and CEO of On The Verge Transformation Consulting"
               className="relative w-full object-cover shadow-[0_30px_70px_-40px_rgba(23,63,120,0.55)]"
               loading="eager"
