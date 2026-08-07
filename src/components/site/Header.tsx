@@ -1,11 +1,10 @@
 import logo from "@/assets/otv-logo.png.asset.json";
 
 const NAV = [
-  { label: "About", href: "#about" },
-  { label: "Services", href: "#services" },
-  { label: "AI Solutions", href: "#services" },
-  { label: "Speaking", href: "#speaking" },
-  { label: "Insights", href: "#insights" },
+  { label: "About", href: "/#about" },
+  { label: "Services", href: "/#services" },
+  { label: "AI Solutions", href: "/tnag-collaboration" },
+  { label: "Speaking", href: "/#speaking" },
 ];
 
 export const CALENDLY = "https://calendly.com/charvey-claudiaharvey/30min-1";
