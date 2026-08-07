@@ -65,10 +65,10 @@ export default function Hero() {
             aria-hidden
             className="absolute top-8 -right-2 bottom-[-28px] left-8 hidden bg-[#dfe8f4] md:block"
           />
-          <div className="relative overflow-hidden border border-ink/10 bg-white shadow-[0_30px_70px_-40px_rgba(23,63,120,0.55)]">
+          <div className="relative overflow-visible border border-ink/10 bg-white shadow-[0_30px_70px_-40px_rgba(23,63,120,0.55)]">
             <img
-              src="/claudia-chair.jpg"
-              alt="Claudia Harvey, founder and CEO of On The Verge Transformation Consulting"
+              src="/team-collaboration.png"
+              alt="Team collaboration"
               className="relative w-full object-cover"
               loading="eager"
             />
