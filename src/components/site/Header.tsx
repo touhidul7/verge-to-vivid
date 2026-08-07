@@ -4,6 +4,7 @@ const NAV = [
   { label: "About", href: "/#about" },
   { label: "Services", href: "/#services" },
   { label: "AI Solutions", href: "/tnag-collaboration" },
+  { label: "Insights", href: "/#insights" },
   { label: "Speaking", href: "/#speaking" },
 ];
 

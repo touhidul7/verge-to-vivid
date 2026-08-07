@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import speaking from "../../../public/claudia-speaking.jpg";
 import { SPEAK_MAIL } from "./Header";
 

@@ -74,7 +74,12 @@ export default function Hero() {
               loading="eager"
             />
             <div className="relative -mt-14 ml-0 w-fit max-w-[85%] bg-white px-7 py-5 md:-ml-8">
-              <p className="font-display text-lg text-ink">Claudia Harvey</p>
+              <p
+                className="font-display text-lg text-ink inline-block"
+                style={{ transform: "rotate(-6deg)", transformOrigin: "left bottom" }}
+              >
+                Claudia Harvey
+              </p>
               <p className="eyebrow mt-1 text-[10px] text-blue">
                 Founder. Strategist. Speaker. Changemaker.
               </p>
