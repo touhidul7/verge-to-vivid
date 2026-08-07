@@ -1,4 +1,4 @@
-import chair from "@/assets/claudia-chair.jpg.asset.json";
+import chair from "../../../public/claudia-chair.jpg";
 import { CALENDLY } from "./Header";
 
 const STATS = [
