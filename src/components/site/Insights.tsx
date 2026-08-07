@@ -2,8 +2,8 @@
 export default function Insights() {
   return (
     <main className="bg-background px-6 py-20 md:px-[8vw] md:py-[10vw]">
-      <section className="mx-auto max-w-[1200px]">
-        <div className="grid gap-12 lg:grid-cols-[360px_1fr] lg:items-start">
+      <section className="mx-auto max-w-[1600px]">
+        <div className="grid gap-12 lg:grid-cols-[420px_1fr] lg:items-start">
           <div className="flex justify-center lg:justify-start">
             <div className="w-[520px] shadow-[0_30px_80px_-45px_rgba(23,63,120,0.20)] bg-white">
               <img
@@ -20,7 +20,7 @@ export default function Insights() {
               Let's Define Success Together Before You Set the Direction
             </h1>
 
-            <div className="mt-6 max-w-[740px] text-[16px] leading-[1.85] text-ink/80">
+            <div className="mt-6 text-[16px] leading-[1.85] text-ink/80">
               <p>
                 Individuals, teams, and organizations often work toward goals without first establishing what "success" truly means. When success is not clearly defined, priorities compete, resources become scattered, and progress can be difficult to measure.
               </p>
@@ -34,7 +34,7 @@ export default function Insights() {
 
             <p className="mt-6 text-sm text-blue/80 tracking-[0.18em]">REFLECT. REFOCUS. MOVE FORWARD.</p>
 
-            <div className="mt-8 max-w-[860px]">
+            <div className="mt-8">
               <div className="grid grid-cols-[220px_1fr] gap-6 items-center bg-white p-8 shadow-[0_30px_60px_-10px_rgba(23,63,120,0.12)] border border-ink/10">
                 <div className="bg-[#f6f8fb] p-6 flex items-center justify-center">
                   <img src="/five-strategies-book.png" alt="Resource cover" className="max-h-[260px] w-auto object-contain" />
