@@ -1,11 +1,10 @@
 import logo from "@/assets/otv-logo.png.asset.json";
 
 const NAV = [
-  { label: "About", href: "#about" },
-  { label: "Services", href: "#services" },
-  { label: "AI Solutions", href: "#services" },
-  { label: "Speaking", href: "#speaking" },
-  { label: "Insights", href: "#insights" },
+  { label: "About", href: "/#about" },
+  { label: "Services", href: "/#services" },
+  { label: "AI Solutions", href: "/tnag-collaboration" },
+  { label: "Speaking", href: "/#speaking" },
 ];
 
 export const CALENDLY = "https://calendly.com/charvey-claudiaharvey/30min-1";
@@ -16,7 +15,7 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-border/60 bg-background/95 backdrop-blur">
       <div className="grid grid-cols-[minmax(0,1fr)_auto] items-center gap-4 px-6 py-3 md:grid-cols-[auto_1fr_auto] md:px-[6vw]">
-        <a href="#top" className="flex min-w-0 items-center">
+        <a href="/" className="flex min-w-0 items-center">
           <img
             src={logo.url}
             alt="On The Verge Transformational Consulting"
