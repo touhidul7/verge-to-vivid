@@ -1,4 +1,4 @@
-import logo from "@/assets/otv-logo.png.asset.json";
+import logo from "/public/logo.png";
 
 const NAV = [
   { label: "About", href: "/#about" },
