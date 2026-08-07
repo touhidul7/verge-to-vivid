@@ -17,7 +17,7 @@ export default function Header() {
       <div className="grid grid-cols-[minmax(0,1fr)_auto] items-center gap-4 px-6 py-3 md:grid-cols-[auto_1fr_auto] md:px-[6vw]">
         <a href="/" className="flex min-w-0 items-center">
           <img
-            src={logo.url}
+            src={logo}
             alt="On The Verge Transformational Consulting"
             className="h-12 w-auto shrink-0 md:h-14"
           />
