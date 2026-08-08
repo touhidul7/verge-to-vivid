@@ -46,7 +46,9 @@ export default function Insights() {
                     <div className="w-36 h-36 bg-white border p-2 flex items-center justify-center">
                       <img src="/five-strategies-qr.jpeg" alt="QR code" className="w-full h-full object-contain" />
                     </div>
-                    <div className="text-sm text-ink/80">Scan to download or <a href="/" className="text-blue underline">learn more</a></div>
+                    <div className="text-sm text-ink/80"> <strong className="text-blue">Scan to download</strong> <br/> 
+                    Open your phone camera and point it at the QR code.
+                    </div>
                   </div>
                 </div>
               </div>

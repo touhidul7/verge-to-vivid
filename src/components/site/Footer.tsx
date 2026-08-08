@@ -33,6 +33,11 @@ export default function Footer() {
             </a>
           </li>
           <li>
+            <a href="/tnag-collaboration" className="transition-colors hover:text-white">
+              AI Solutions
+            </a>
+          </li>
+          <li>
             <a href="/insights" className="transition-colors hover:text-white">
               Insights
             </a>
