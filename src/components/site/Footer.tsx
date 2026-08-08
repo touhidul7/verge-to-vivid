@@ -28,7 +28,7 @@ export default function Footer() {
         </a>
       </div>
       <p className="md:text-right">
-        © 2026 On The Verge Transformation Consulting Inc.
+        © 2026 On The Verge Transformations Consulting Inc. All rights reserved under the legal area below.
       </p>
     </footer>
   );

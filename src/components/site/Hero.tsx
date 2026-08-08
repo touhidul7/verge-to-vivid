@@ -75,7 +75,7 @@ export default function Hero() {
             <div className="relative -mt-14 ml-0 w-fit max-w-[85%] bg-white px-7 py-5 md:-ml-8">
               <p
                 className="font-display text-lg text-ink inline-block"
-                style={{ transform: "rotate(-6deg)", transformOrigin: "left bottom" }}
+                // style={{ transform: "rotate(-6deg)", transformOrigin: "left bottom" }}
               >
                 Claudia Harvey
               </p>

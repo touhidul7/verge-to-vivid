@@ -105,7 +105,7 @@ function Contact() {
 
             <div className="flex flex-col items-start gap-4 sm:flex-row sm:items-center sm:justify-between">
               <p className="max-w-[560px] text-sm leading-6 text-ink/70">
-                Clicking submit will open your email client so you can send the request directly to our team.
+                When you click submit, your email will be received by our team and we will promptly get back to you! We are excited to connect!
               </p>
               <button
                 type="submit"

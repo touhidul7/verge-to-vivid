@@ -146,7 +146,7 @@ export default function Speaking() {
           event.
         </p>
         <a
-          href={SPEAK_MAIL}
+          href="https://calendly.com/charvey-claudiaharvey/30min-1"
           className="group inline-flex items-center gap-3 border-b border-white/40 pb-1 text-[14px] text-white/90 transition-colors hover:border-white hover:text-white"
         >
           Start a speaking conversation
