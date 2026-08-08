@@ -1,10 +1,10 @@
 const NAV = [
   { label: "About", href: "/#about" },
   { label: "Services", href: "/#services" },
+  { label: "Speaking", href: "/#speaking" },
   { label: "AI Solutions", href: "/tnag-collaboration" },
   { label: "Insights", href: "/insights" },
   { label: "Contact", href: "/contact" },
-  { label: "Speaking", href: "/#speaking" },
 ];
 
 export const CALENDLY = "https://calendly.com/charvey-claudiaharvey/30min-1";

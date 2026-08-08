@@ -5,6 +5,8 @@ import Hero from "@/components/site/Hero";
 import About from "@/components/site/About";
 import Services from "@/components/site/Services";
 import Speaking from "@/components/site/Speaking";
+import AiSolutions from "@/components/site/AiSolutions";
+import InsightsHome from "@/components/site/InsightsHome";
 import Closing from "@/components/site/Closing";
 
 const TITLE = "On The Verge Transformation Consulting | Claudia Harvey";
@@ -49,6 +51,8 @@ function Index() {
         <About />
         <Services />
         <Speaking />
+        <AiSolutions />
+        <InsightsHome />
         <Closing />
       </main>
     </div>
